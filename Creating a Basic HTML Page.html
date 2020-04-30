@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Introduction to Web Pages</title>
+</head>
+<body>
+	<marquee>Welcome</marquee>
+	<h1>1st Header</h1>
+	<h2>2 Header</h2>
+	<h3>3 Header</h3>
+	<h4>4 Header</h4>
+	<h5>5 Header</h5>
+	<h6>6 Header</h6>
+
+	<hr />
+
+	<h1>Title</h1>
+	<h2>Subtitle</h2>
+	<h3>Topic</h3>
+	<h4>Subtopic</h4>
+	<p>
+    Beginning of paragraph text
+    <br />
+    <strong>Remaining</strong> text after the <i>line break</i>
+    </p> 
+<hr />
+<h1>Block Elements</h1>
+
+
+There are three primary examples of block level elements that you may have used already in your HTML pages:<br />
+
+&ltbr&gt element<br />
+&ltbody&gt element<br />
+&ltp&gt elements<br />
+
+
+&ltbr&gt Element. This element creates a single line break between text content. Since the line break takes up the entire width of the HTML page, the &ltbr&gt element is considered a block element.
+
+Example
+Code
+This is the first line of text
+<br />
+This is the second line of text
+Result
+
+
+	<p>&ltdiv&gt таг</p>
+
+	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<h1>There are many other block elements including:</h1>
+
+&ltarticle&gt<br />
+&ltaside&gt<br />
+&ltblockquote&gt<br />
+&ltbr&gt<br />
+&ltbutton&gt<br />
+&ltcanvas&gt<br />
+&ltcaption<br />
+&ltdd&gt, &ltdl&gt &ltdt&gt<br />
+&lth1&gt, &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, &lth6&gt<br />
+&ltfooter&gt, &ltheader&gt<br />
+&ltfieldset&gt<br />
+&ltform&gt<br />
+
+
+<h1>Inline Elements</h1>
+Inline elements differ from block elements as they only take up the width that they need to render their content.
+
+Mixing Inline Elements and Block Elements
+Inline Elements and Block Elements can be used together as sibling elements within HTML content. Typically you can only place inline elements within a block element since an inline element will be able to fit within the entire width of the HTML page but a block element may not fit within the potential width of an inline element.
+
+Using the display CSS attribute, you can change the rendering of any element between block or inline but it is not a good idea to change the way HTML elements are expected to behave on a page.
+
+Examples
+Code
+<span style="background-color: red;">This is the first line of text</span>
+<span style="background-color: green;">This is the second line of text</span>
+Result
+Block Element Example
+
+Code
+<div style="background-color: red; width: 800px;">This is the first line of text</div>
+<span style="background-color: green;">This is the second line of text</span>
+Result
+Block Element Example
+	
+	</body>
+</html>
